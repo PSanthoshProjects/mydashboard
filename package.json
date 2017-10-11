@@ -1,0 +1,19 @@
+{
+  "name": "metric-dashboard",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "express": "^4.15.5",
+    "jasmine-node": "~1.14.5",
+    "request": "^2.82.0"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "start": "node metric-dashboard.js",
+    "test": "./node_modules/.bin/jasmine-node spec",
+    "zip": "zip -q -9 ../metric-dashboard.zip -r * .[^.]*"
+  },
+  "license": "MIT"
+}
